@@ -2,13 +2,13 @@
 for i in range(1,20):
     print(i)
 
- printin a numbers 1 to one million using a for loop
+# printin a numbers 1 to one million using a for loop
 for i in range(1,100001):
     print(i)
 
 
 # using the min()and max() and sum()
-Create a list of numbers from 1 to 1,000,000
+# Create a list of numbers from 1 to 1,000,000
 numbers = list(range(1, 100))
 print("Minimum:", min(numbers))
 print("Maximum:", max(numbers))
@@ -33,7 +33,7 @@ for cube in cubes:
 
 
 #  first 10 cubes 
-Generate a list of the first 10 cubes
+# Generate a list of the first 10 cubes
 cubes = [i ** 3 for i in range(1, 11)]
 
 print(cubes)
