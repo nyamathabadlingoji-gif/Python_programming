@@ -1,72 +1,91 @@
-# Find the largest element in an array.
-arr = [22,45,7,89]
-largest = arr[0]
-for num in arr:
-    if num > largest:
-        largest = num
+# # Find the largest element in an array.
+# arr = [22,45,7,89]
+# largest = arr[0]
+# for num in arr:
+#     if num > largest:
+#         largest = num
 
-print(largest)
-
-
-# Find the Smallest Element in an Array
-arr = [12,6,8,65,7]
-smallest = arr[0]
-for num in arr:
-    if num < smallest:
-        smallest = num
-print(smallest)
-
-# Find the Second Largest Element
-arr = [55,65,23,87,12]
-largest = second = arr[0]
-for num in arr:
-    if num > largest:
-        second = largest
-        largest = num
-    elif num > second and num != largest:
-         second = num
-print(second)
+# print(largest)
 
 
-# Find the Second Smallest Element
-arr = [54,23,65,89,22]
-smallest = second = arr[0]
-for num in arr:
-    if num < smallest:
-        second = smallest
-        smallest = num
-    elif num < second and num != smallest:
-        second = num
-print(second)
+# # Find the Smallest Element in an Array
+# arr = [12,6,8,65,7]
+# smallest = arr[0]
+# for num in arr:
+#     if num < smallest:
+#         smallest = num
+# print(smallest)
+
+# # Find the Second Largest Element
+# arr = [55,65,23,87,12]
+# largest = second = arr[0]
+# for num in arr:
+#     if num > largest:
+#         second = largest
+#         largest = num
+#     elif num > second and num != largest:
+#          second = num
+# print(second)
 
 
-# Calculate the sum of all elements.
-arr = [54,23,65,89,22]
-sum = 0 
-for num in arr:
-    sum = sum + num
-print(sum)
+# # Find the Second Smallest Element
+# arr = [54,23,65,89,22]
+# smallest = second = arr[0]
+# for num in arr:
+#     if num < smallest:
+#         second = smallest
+#         smallest = num
+#     elif num < second and num != smallest:
+#         second = num
+# print(second)
 
-# Calculate the average of array elements
-arr = [54,23,65,89,22]
-no_of_elm = len(arr)
-sum = 0 
-for num in arr:
-    sum = sum + num
-print(sum/no_of_elm)
 
-# Count the number of even and odd numbers.
-arr =[2,5,6,65,8,77,4,23,33,7]
-even = 0
-odd = 0
+# # Calculate the sum of all elements.
+# arr = [54,23,65,89,22]
+# sum = 0 
+# for num in arr:
+#     sum = sum + num
+# print(sum)
 
-for i in arr:
-    if i % 2 == 0:
-        even += 1
+# # Calculate the average of array elements
+# arr = [54,23,65,89,22]
+# no_of_elm = len(arr)
+# sum = 0 
+# for num in arr:
+#     sum = sum + num
+# print(sum/no_of_elm)
+
+# # Count the number of even and odd numbers.
+# arr =[2,5,6,65,8,77,4,23,33,7]
+# even = 0
+# odd = 0
+
+# for i in arr:
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print(even)
+# print(odd)
+
+
+
+# n = [21,5,87,9,55,24,12,2,6,8]
+# prime =n[0]
+#
+
+
+# n = [21,5,87,9,55,24,12,2,6,8]
+# prime =n[0]
+# print(prime)
+
+num = 5
+if num == 0 or num == 1:
+    print("not prime")
+else:
+    for i in range(2,num):
+        if num % i == 0:
+            print("not prime")
+            break
     else:
-        odd += 1
-print(even)
-print(odd)
-
-
-
+        print("prime")
