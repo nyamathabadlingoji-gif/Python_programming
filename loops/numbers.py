@@ -36,7 +36,7 @@ def count_digits(number):
     return count
 print(count_digits(61656626))
 
-Reverse an integer using a loop
+# Reverse an integer using a loop
 num = int(input())
 reverse = 0
 while num > 0:
@@ -61,3 +61,5 @@ if original == reverse:
    print("palindrome")
 else:
    print("not a palindorme")
+
+
